@@ -1,0 +1,22 @@
+{
+  "name": "gdollor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "robotjs": "^0.5.1",
+    "sleep": "^5.1.1",
+    "threads": "^0.10.1",
+    "tiny-worker": "^2.1.2",
+    "webworker-threads": "^0.7.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start-con": "concurrently \"node startmouse.js\" \"node starttab.js\" \"node startarrow.js\""
+  },
+  "author": "",
+  "license": "ISC"
+}
